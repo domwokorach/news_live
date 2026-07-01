@@ -6,9 +6,13 @@ export function Header() {
     <header className="news-header">
       <div className="brand-row">
         <div className="bbc-blocks" aria-label="BBC">
-          <span>B</span>
-          <span>B</span>
-          <span>C</span>
+          <span>D</span>
+          <span>O</span>
+          <span>M</span>
+          <span>I</span>
+          <span>N</span>
+          <span>I</span> 
+          <span>C</span>                  
         </div>
         <nav aria-label="Global">
           <ul>

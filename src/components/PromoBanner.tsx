@@ -2,7 +2,6 @@ export function PromoBanner() {
   return (
     <section className="promo-banner" aria-label="Account banner">
       <div>
-        <h2>Discover your BBC</h2>
         <p>Sign in or create an account to watch, listen and join in</p>
       </div>
       <div className="promo-actions">
