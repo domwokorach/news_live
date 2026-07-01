@@ -27,6 +27,16 @@ Then run:
 npm run dev
 ```
 
+## Deployment note (Vercel 404 NOT_FOUND)
+
+If you see a Vercel 404 NOT_FOUND page on refresh or direct route access, this project includes [vercel.json](vercel.json) with an SPA rewrite to index.html.
+
+```json
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
+```
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -100,4 +110,3 @@ export default defineConfig([
 ])
 
 ```
-# news_live
